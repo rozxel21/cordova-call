@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WebsiteBeaver/CordovaCall.git"
+    "url": "https://github.com/rozxel21/cordova-call.git"
   },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios"
   ],
-  "homepage": "https://github.com/WebsiteBeaver/CordovaCall",
-  "author": "David Marcus",
+  "homepage": "https://github.com/rozxel21/cordova-call",
+  "author": "Axel Roz",
   "license": "MIT"
 }

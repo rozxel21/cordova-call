@@ -37,7 +37,7 @@ public class MyConnectionService extends ConnectionService {
             public void onAnswer() {
                 this.setActive();
                 Intent intent = new Intent(CordovaCall.getCordova().getActivity().getApplicationContext(), CordovaCall.getCordova().getActivity().getClass());
-                //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 CordovaCall.getCordova().getActivity().getApplicationContext().startActivity(intent);
                 ArrayList<CallbackContext> callbackContexts = CordovaCall.getCallbackContexts().get("answer");
                 for (final CallbackContext callbackContext : callbackContexts) {
